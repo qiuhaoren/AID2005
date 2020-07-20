@@ -1,7 +1,7 @@
 from socket import *
 
 s = socket()
-s.bind(('0.0.0.0',8888))
+s.bind(('0.0.0.0',8866))
 s.listen(5)
 while True:
     c,addr = s.accept()
